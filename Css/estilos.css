@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: #8b2703; 
+    height: 180px;
+}
+#logo{
+    background: url(../Img/pngwing.com.png) no-repeat;
+    height: 180px;
+    width: 260px;
+}
+#logo a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#logo h1{
+    display: none;
+}
+#compra{
+    background: url(../Img/compra\ ahora.png) no-repeat;
+    width: 150px;
+    height: 49px;
+}
+#compra a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#compra h1{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.container h1{
+    font-family: "Rethink Sans", sans-serif;
+    color: #f1e8a7;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    margin: 15px;
+}
+.container h2{
+    font-family: "Rethink Sans", sans-serif;
+    color: #f1e8a7;
+    font-style: normal;
+    font-size: 25px;
+    text-align: right;
+    margin: 15px;
+}
+.mainmenu{
+    background-color: #d97b59;
+    font-family: "Rethink Sans", sans-serif;
+    color: #f1e8a7;
+    font-style: normal;
+    text-decoration: none;
+    padding: 1px;
+}
+.mainmenu ul{
+    list-style: none;
+}
+nav{
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+}
+nav a:link, nav a:visited{
+    color: #f1e8a7;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    -webkit-transition: all 750ms ease-in-out;
+ -moz-transition: all 750ms ease-in-out;
+ -ms-transition: all 750ms ease-in-out;
+ -o-transition: all 750ms ease-in-out;
+ transition: all 750ms ease-in-out;
+ 
+}
+nav a:hover{
+    color: #8b2705;
+    -webkit-transition: all 750ms ease-in-out;
+ -moz-transition: all 750ms ease-in-out;
+ -ms-transition: all 750ms ease-in-out;
+ -o-transition: all 750ms ease-in-out;
+ transition: all 750ms ease-in-out;
+}
+.compra{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    background-color: #f2efac;
+    padding: 0;
+    color: #733303;
+}
+
+.parrafo{
+    color: #f6edac;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.pa{
+    background-color: #8b2703;
+    margin: 0!important;
+    padding: 0;
+}
+.todo{
+    background-color: #8b2703;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #f6edac;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+.reyes{
+    margin: 10px;
+}
+.enlace{
+    margin: 10px;
+}
+.llegar{
+    margin: 10px;
+}
+.reyes img{
+    width: 200px;
+    height: 200px;
+}
+.enlace img{
+    width: 294px;
+    height: 150px;
+}
+.enlace a{
+    text-decoration: none;
+    color: #f6edac;
+}
+.enlace a:link, .enlace a:visited{
+    -webkit-transition: all 750ms ease-in-out;
+ -moz-transition: all 750ms ease-in-out;
+ -ms-transition: all 750ms ease-in-out;
+ -o-transition: all 750ms ease-in-out;
+ transition: all 750ms ease-in-out;
+}
+.enlace a:hover{
+    color: #ddb400;
+    -webkit-transition: all 750ms ease-in-out;
+ -moz-transition: all 750ms ease-in-out;
+ -ms-transition: all 750ms ease-in-out;
+ -o-transition: all 750ms ease-in-out;
+ transition: all 750ms ease-in-out;
+}
+.llegar img{
+    width: 400px;
+    height: 230px;
+}
+.llegar a{
+    text-decoration: none;
+    color: #f6edac;
+}
+.llegar a:link, .llegar a:visited{
+    -webkit-transition: all 750ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -ms-transition: all 750ms ease-in-out;
+    -o-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+}
+.llegar a:hover{
+    color: #ddb400;
+    -webkit-transition: all 750ms ease-in-out;
+ -moz-transition: all 750ms ease-in-out;
+ -ms-transition: all 750ms ease-in-out;
+ -o-transition: all 750ms ease-in-out;
+ transition: all 750ms ease-in-out;
+}
+.info{
+    background-color: #8b2703;
+    display: flex;
+    justify-content: center;
+}
+.visa{
+    margin: 15px;
+}
+.visa img{
+    width: 120px;
+    height: 110px;
+}
+.visa a{
+    font-family: "League Spartan", sans-serif;
+    text-decoration: none;
+    color: #f6edac;
+}
+.visa a:link, .visa a:visited{
+    -webkit-transition: all 750ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -ms-transition: all 750ms ease-in-out;
+    -o-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+}
+.visa a:hover{
+    color: #ddb400;
+    -webkit-transition: all 750ms ease-in-out;
+ -moz-transition: all 750ms ease-in-out;
+ -ms-transition: all 750ms ease-in-out;
+ -o-transition: all 750ms ease-in-out;
+ transition: all 750ms ease-in-out;
+}
+.plane{
+    margin: 15px;
+}
+.plane a{
+    font-family: "League Spartan", sans-serif;
+    text-decoration: none;
+    color: #f6edac;
+}
+.plane a:link, .plane a:visited{
+    -webkit-transition: all 750ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -ms-transition: all 750ms ease-in-out;
+    -o-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+}
+.plane a:hover{
+    color: #ddb400;
+    -webkit-transition: all 750ms ease-in-out;
+ -moz-transition: all 750ms ease-in-out;
+ -ms-transition: all 750ms ease-in-out;
+ -o-transition: all 750ms ease-in-out;
+ transition: all 750ms ease-in-out;
+}
+.plane img{
+    width: 120px;
+    height: 110px;
+}
+.hotel{
+    margin: 15px;
+}
+.hotel a{
+    font-family: "League Spartan", sans-serif;
+    text-decoration: none;
+    color: #f6edac;
+}
+.hotel a:link, a:visited{
+    -webkit-transition: all 750ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -ms-transition: all 750ms ease-in-out;
+    -o-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+}
+.hotel a:hover{
+    color: #ddb400;
+    -webkit-transition: all 750ms ease-in-out;
+ -moz-transition: all 750ms ease-in-out;
+ -ms-transition: all 750ms ease-in-out;
+ -o-transition: all 750ms ease-in-out;
+ transition: all 750ms ease-in-out;
+}
+.hotel img{
+    width: 120px;
+    height: 110px;
+}
+footer{
+    background-color: #d97b59;
+    text-align: center;
+    color: #8b2705;
+}
+@media (min-width: 1200px){
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .container h1{
+        font-family: "Rethink Sans", sans-serif;
+        color: #f1e8a7;
+        font-style: normal;
+        font-size: 50px;
+        text-align: center;
+        margin: 15px;
+    }
+    .container h2{
+        font-family: "Rethink Sans", sans-serif;
+        color: #f1e8a7;
+        font-style: normal;
+        font-size: 40px;
+        text-align: right;
+        margin: 1px;
+    }
+    .compra{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #f2efac;
+        padding: 0;
+        color: #733303;
+    }
+    .pa{
+        background-color: #8b2705;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        color: #f1e8a7;
+        text-align: center;
+    }
+    .reyes img{
+        width: 350px;
+        height: 350px;
+    }
+    .enlace img{
+        width: 394px;
+        height: 250px;
+    }
+    .llegar img{
+        width: 500px;
+        height: 330px;
+    }
+    .reyes{
+        margin: 20px;
+    }
+    .enlace{
+        margin: 20px;
+    }
+}

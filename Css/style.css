@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    margin: 0;
+}
+header{
+    background-color: #8b2703;
+    height: 150px;
+}
+#logo{
+    background: url(../Img/pngwing.com.png) no-repeat;
+    height: 180px;
+    width: 260px;
+}
+#logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#logo h1{
+    display: none;
+}
+#compra{
+    background: url(../Img/compra\ ahora.png) no-repeat;
+    width: 150px;
+    height: 49px;
+}
+#compra a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#compra h1{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container h1{
+    font-family: "Rethink Sans", sans-serif;
+    color: #f1e8a7;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin: 15px;
+}
+.container h2{
+    font-family: "Rethink Sans", sans-serif;
+    color: #f1e8a7;
+    font-style: normal;
+    font-size: 40px;
+    text-align: right;
+    margin: 1px;
+}
+.mainmenu{
+    background-color: #d97b59;
+    font-family: "Rethink Sans", sans-serif;
+    color: #f1e8a7;
+    font-style: normal;
+    text-decoration: none;
+    padding: 1px;
+}
+.mainmenu ul{
+    list-style: none;
+}
+nav{
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    margin: 10px;
+}
+nav a:link, nav a:visited{
+    color: #f1e8a7;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    -webkit-transition: all 750ms ease-in-out;
+ -moz-transition: all 750ms ease-in-out;
+ -ms-transition: all 750ms ease-in-out;
+ -o-transition: all 750ms ease-in-out;
+ transition: all 750ms ease-in-out;
+}
+nav a:hover{
+    color: #8b2705;
+    -webkit-transition: all 750ms ease-in-out;
+ -moz-transition: all 750ms ease-in-out;
+ -ms-transition: all 750ms ease-in-out;
+ -o-transition: all 750ms ease-in-out;
+ transition: all 750ms ease-in-out;
+}
+.compra{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f2efac;
+    padding: 0;
+    color: #733303;
+}
+hr{
+    background-color: white;
+}
+.titulo{
+    background-color: #8b2705;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #f1e8a7;
+    text-align: center;
+}
+.todo{
+    background-color: #8b2705;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #f1e8a7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.part{
+    background-color: #8b2705;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #f1e8a7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+footer{
+    background-color: #d97b59;
+    text-align: center;
+    color: #8b2705;
+}
+@media (max-width: 576px){
+    .container h1{
+        font-size: 30px;
+    }
+    .container h2{
+        font-size: 30px;
+    }
+}
